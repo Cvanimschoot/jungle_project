@@ -32,7 +32,7 @@
         </tfoot>
       </table>
     <% else %>
-      <p style="color: grey; font-size: 1.5em; margin-bottom: 1em;">Your cart is currently empty, please checkout our homepage to find the plants you're looking for!</p>
+      <p style="color: grey; font-size: 1.5em; margin-bottom: 1em;">Your cart is currently empty, please check out our homepage to find the plants you're looking for!</p>
     <% end %>
   </div>
 
@@ -52,7 +52,10 @@
           </script>
         <% end %>
       <% else %>
-        <a href="<%= root_path %>">
+        <a href="<%= root_path %>" style=
+        "display: flex; 
+        justify-content: center;
+        text-decoration: none;">
           <button style=
           "border-radius: 0.25em; 
           border: 0.1em solid rgba(1, 79, 17, 0.8); background: rgba(0, 130, 29);
