@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  get 'admin/categories'
   get 'about' => 'about#index'
   root to: 'products#index'
 
